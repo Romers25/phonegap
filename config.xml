@@ -4,10 +4,10 @@
     id        = "com.phonegap.example"
     version   = "1.0.0">
 
-<name>Map Application</name>
+<name>Romer Application</name>
 
 <description>
-Prueba Uso Google Maps
+Prueba Uso PhoneGap
 </description>
 
 <author href="https://example.com" email="you@example.com">
