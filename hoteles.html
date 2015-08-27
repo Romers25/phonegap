@@ -9,97 +9,66 @@
 </head> 
 <body> 
 
-<div data-role="page" data-theme="c" id="page">
+<div data-role="page" id="hoteles" data-theme="c">
 	<div data-role="header" data-theme="b">
-		<h1>Directorio</h1>
-		<h1>Turismo</h1>
+		<h1>Hoteles</h1>
+		<a href="index.html">Inicio</a>	
 	</div>
-	<div data-role="content">	
-		<ul data-role="listview">
-			<li><a href="#hoteles" data-transition="pop">Hoteles</a></li>
-            <li><a href="#restaurantes">Restaurantes</a></li>
-			<li><a href="#salud">Salud</a></li>
-			<li><a href="#emergencias">Emergencias</a></li>
-			<li><a href="#alquiler">Alquiler Vehiculos</a></li>
-			<li><a href="#bancos">Bancos</a></li>
+	 	<div data-role="content" >	
+
+	 	<ul data-role="listview" data-filter="true" data-filter-placeholder="Buscar Hotel">
+	    <li data-role="list-divider">Clase Alta</li>
+			<li><a href="#Holiday" data-rel="dialog">Holiday Inn</a></li>
+			<li><a href="#Sheraton" data-rel="dialog">Sheraton Presidente</a></li>
+			<li><a href="#Crowne" data-rel="dialog">Crowne Plaza</a></li>
+	    <li data-role="list-divider">Clase Media</li>
+	    	
+	    <li data-role="list-divider">Clase Baja</li>
+
+	</ul>
+		<ul data-role="listview" >
+
 
 		</ul>		
 	</div>
-	<div data-role="footer" data-theme="b">
-		<h4>Pie de página</h4>
 	</div>
-</div>
 
-<div data-role="page" id="hoteles">
-	<div data-role="header">
-		<h1>Hoteles</h1>
-	</div>
-	<div data-role="content">	
-		Contenido		
-	</div>
+	
+
 	<div data-role="footer">
 		<h4>Pie de página</h4>
 	</div>
-</div>
 
-<div data-role="page" id="restaurantes">
+	<div id="Holiday" data-role="page">
 	<div data-role="header">
-		<h1>Restaurantes</h1>
+		<h1>Holiday Inn</h1>
 	</div>
-	<div data-role="content">	
-		Contenido		
-	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
-	</div>
-</div>
+	<div data-role="content">
+		<center>
+		<img src="imagenes/inicio.jpg" alt="Clavo y Canela" style="width:220px;height:180px">
+		</center>
 
-<div data-role="page" id="salud">
-	<div data-role="header">
-		<h1>Salud</h1>
+		<ul data-role="listview" data-inset="true">
+			<li>Tel.: +503 78370102<a href="tel:78370102">Llamar</a></li>
+			<li>Direccion.: 
+				<p>
+				<br>Boulevard Santa Elena, <br>Santa Elena,
+				San Salvador.</p></li>	
+			<li>Descripcion.: <p>
+			<br>Sólo cinco minutos de la Zona Rosa, 
+			<br>con su vida nocturna y restaurantes, 
+			<br>bares y discotecas. Cerca de la Embajada 
+			<br>de los EE.UU., Museo de Arte, Teatro Presidente, 
+			<br>Museo de Antropología, y la Feria Internacional 
+			<br>y Centro de Convenciones. Centros comerciales: 
+			<br>Multiplaza, La Gran Vía y Las Cascadas.</p></li>
+			
+		</ul>
+	<a target="_blank" href="https://www.facebook.com/HolidayInn.SanSalvador" data-role="button" data-theme="b" data-icon="refresh" data-iconpos="right">
+	Facebook
+</a>
 	</div>
-	<div data-role="content">	
-		Contenido		
-	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
-	</div>
-</div>
-
-
-<div data-role="page" id="emergencias">
-	<div data-role="header">
-		<h1>Emergencias</h1>
-	</div>
-	<div data-role="content">	
-		Contenido		
-	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
-	</div>
-</div>
-
-<div data-role="page" id="alquiler">
-	<div data-role="header">
-		<h1>Alquileres</h1>
-	</div>
-	<div data-role="content">	
-		Contenido		
-	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
-	</div>
-</div>
-
-<div data-role="page" id="bancos">
-	<div data-role="header">
-		<h1>Bancos</h1>
-	</div>
-	<div data-role="content">	
-		Contenido		
-	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
+	
 	</div>
 </div>
 
