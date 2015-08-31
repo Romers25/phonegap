@@ -12,13 +12,12 @@
 <div data-role="page" id="hoteles" data-theme="c">
 	<div data-role="header" data-theme="b">
 		<h1>Hoteles</h1>
-		<a href="index.html">Inicio</a>	
+		<a href="index.html" data-icon="home">Inicio</a>	
 	</div>
 	 	<div data-role="content" >	
-
 	 	<ul data-role="listview" data-filter="true" data-filter-placeholder="Buscar Hotel">
 	    <li data-role="list-divider">Clase Alta</li>
-			<li><a href="#Holiday" data-transition="pop">Holiday Inn</a></li>
+			<li><a href="#Holiday" data-rel="dialog">Holiday Inn</a></li>
 			<li><a href="#Sheraton" data-rel="dialog">Sheraton Presidente</a></li>
 			<li><a href="#Crowne" data-rel="dialog">Crowne Plaza</a></li>
 	    <li data-role="list-divider">Clase Media</li>
@@ -26,10 +25,7 @@
 	    <li data-role="list-divider">Clase Baja</li>
 
 	</ul>
-		<ul data-role="listview" >
-
-
-		</ul>		
+		
 	</div>
 	</div>
 
@@ -40,16 +36,16 @@
 	</div>
 
 	<div id="Holiday" data-role="page">
-	<div data-role="header">
+	<div data-role="header" >
 		<h1>Holiday Inn</h1>
 	</div>
 	<div data-role="content">
 		<center>
-		<img src="imagenes/inicio.jpg" alt="Clavo y Canela" style="width:220px;height:180px">
+		<img src="imagenes/inicio.jpg" alt="Holiday Inn" style="width:220px;height:180px">
 		</center>
 
 		<ul data-role="listview" data-inset="true">
-			<li>Tel.: +503 78370102<a href="tel:78542462">Llamar</a></li>
+			<li>Tel.: +503 78370102<a href="tel:78542462" data-icon="refresh">Llamar</a></li>
 			<li>Direccion.: 
 				<p>
 				<br>Boulevard Santa Elena, <br>Santa Elena,
@@ -70,6 +66,72 @@
 	</div>
 	
 	</div>
+
+	<div id="Sheraton" data-role="page">
+	<div data-role="header" >
+		<h1>Sheraton <br>Presidente</h1>
+	</div>
+	<div data-role="content">
+		<center>
+		<img src="imagenes/inicio.jpg" alt="Sheraton Presidente" style="width:220px;height:180px">
+		</center>
+
+		<ul data-role="listview" data-inset="true">
+			<li>Tel.: +503 78370102<a href="tel:78542462" data-icon="refresh">Llamar</a></li>
+			<li>Direccion.: 
+				<p>
+				<br>Boulevard Santa Elena, <br>Santa Elena,
+				San Salvador.</p></li>	
+			<li>Descripcion.: <p>
+			<br>Sólo cinco minutos de la Zona Rosa, 
+			<br>con su vida nocturna y restaurantes, 
+			<br>bares y discotecas. Cerca de la Embajada 
+			<br>de los EE.UU., Museo de Arte, Teatro Presidente, 
+			<br>Museo de Antropología, y la Feria Internacional 
+			<br>y Centro de Convenciones. Centros comerciales: 
+			<br>Multiplaza, La Gran Vía y Las Cascadas.</p></li>
+			
+		</ul>
+	<a target="_blank" href="https://www.facebook.com/HolidayInn.SanSalvador" data-role="button" data-theme="b" data-icon="refresh" data-iconpos="right">
+	Facebook
+</a>
+	</div>
+	
+	</div>
+
+		<div id="Crowne" data-role="page">
+	<div data-role="header" >
+		<h1>Crowne Plaza</h1>
+	</div>
+	<div data-role="content">
+		<center>
+		<img src="imagenes/inicio.jpg" alt="Crowne Plaza" style="width:220px;height:180px">
+		</center>
+
+		<ul data-role="listview" data-inset="true">
+			<li>Tel.: +503 78370102<a href="tel:78542462" data-icon="refresh">Llamar</a></li>
+			<li>Direccion.: 
+				<p>
+				<br>Boulevard Santa Elena, <br>Santa Elena,
+				San Salvador.</p></li>	
+			<li>Descripcion.: <p>
+			<br>Sólo cinco minutos de la Zona Rosa, 
+			<br>con su vida nocturna y restaurantes, 
+			<br>bares y discotecas. Cerca de la Embajada 
+			<br>de los EE.UU., Museo de Arte, Teatro Presidente, 
+			<br>Museo de Antropología, y la Feria Internacional 
+			<br>y Centro de Convenciones. Centros comerciales: 
+			<br>Multiplaza, La Gran Vía y Las Cascadas.</p></li>
+			
+		</ul>
+	<a target="_blank" href="https://www.facebook.com/HolidayInn.SanSalvador" data-role="button" data-theme="b" data-icon="refresh" data-iconpos="right">
+	Facebook
+</a>
+	</div>
+	
+	</div>
+
+
 </div>
 
 </body>
